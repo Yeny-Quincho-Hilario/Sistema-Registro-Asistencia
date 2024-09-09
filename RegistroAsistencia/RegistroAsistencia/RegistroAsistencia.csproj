@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3775E24E-3DB4-41D8-A9EF-ED2EE11DEC98}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RegistroAsistencia</RootNamespace>
+    <AssemblyName>RegistroAsistencia</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsBotonCirculo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta.Designer.cs">
+      <DependentUpon>Consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaAsistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaAsistencia.Designer.cs">
+      <DependentUpon>ConsultaAsistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estado.cs" />
+    <Compile Include="frmAgregarDocentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarDocentes.Designer.cs">
+      <DependentUpon>frmAgregarDocentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarCurso.Designer.cs">
+      <DependentUpon>frmAgregarCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarPE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarPE.Designer.cs">
+      <DependentUpon>frmAgregarPE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarEstud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarEstud.Designer.cs">
+      <DependentUpon>frmAgregarEstud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMatriCursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatriCursos.Designer.cs">
+      <DependentUpon>frmMatriCursos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAsistencia.Designer.cs">
+      <DependentUpon>frmAsistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMatriProgEstudios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatriProgEstudios.Designer.cs">
+      <DependentUpon>frmMatriProgEstudios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMatriEstud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatriEstud.Designer.cs">
+      <DependentUpon>frmMatriEstud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMatriDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatriDoc.Designer.cs">
+      <DependentUpon>frmMatriDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicio.Designer.cs">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPanelMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPanelMenu.Designer.cs">
+      <DependentUpon>frmPanelMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Globales.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Consulta.resx">
+      <DependentUpon>Consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaAsistencia.resx">
+      <DependentUpon>ConsultaAsistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarDocentes.resx">
+      <DependentUpon>frmAgregarDocentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarCurso.resx">
+      <DependentUpon>frmAgregarCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarPE.resx">
+      <DependentUpon>frmAgregarPE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarEstud.resx">
+      <DependentUpon>frmAgregarEstud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatriCursos.resx">
+      <DependentUpon>frmMatriCursos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAsistencia.resx">
+      <DependentUpon>frmAsistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatriProgEstudios.resx">
+      <DependentUpon>frmMatriProgEstudios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatriEstud.resx">
+      <DependentUpon>frmMatriEstud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatriDoc.resx">
+      <DependentUpon>frmMatriDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicio.resx">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPanelMenu.resx">
+      <DependentUpon>frmPanelMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-10-26 at 5.39.10 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar-signo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_4202336.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-grupo-de-usuarios-hombre-y-mujer-94.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-estudiantes-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\servicio-al-cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tesis %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_6747120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round-account-button-with-user-inside_icon-icons.com_72596.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-silhouette-security-tool-interface-symbol-of-password_icon-icons.com_54503.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-archivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-archivo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tesis %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salvar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rol-de-la-asistente-a-direccion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Costos-del-trabajo-con-un-sistema-de-control-de-asistencia-de-personal_imgdest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Costos-del-trabajo-con-un-sistema-de-control-de-asistencia-de-personal_imgdest1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consulta.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
