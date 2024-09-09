@@ -21,3 +21,26 @@ C:\Users\YENI\source\repos\RegistroAsistencia\RegistroAsistencia\obj\Debug\Regis
 C:\Users\YENI\source\repos\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.frmPanelMenu.resources
 C:\Users\YENI\source\repos\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.Consulta.resources
 C:\Users\YENI\source\repos\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.ConsultaAsistencia.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\bin\Debug\RegistroAsistencia.exe.config
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\bin\Debug\RegistroAsistencia.exe
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\bin\Debug\RegistroAsistencia.pdb
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.csprojAssemblyReference.cache
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.Consulta.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.ConsultaAsistencia.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.frmAgregarDocentes.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.frmAgregarCurso.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.frmAgregarPE.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.frmAgregarEstud.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.frmLogin.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.frmMatriCursos.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.frmAsistencia.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.frmMatriProgEstudios.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.frmMatriEstud.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.frmMatriDoc.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.frmInicio.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.frmPanelMenu.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.Properties.Resources.resources
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.csproj.GenerateResource.cache
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.csproj.CoreCompileInputs.cache
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.exe
+C:\Users\YENI\Desktop\SISTEMA DE REGISTO DE ASISTENCIA\RegistroAsistencia\RegistroAsistencia\obj\Debug\RegistroAsistencia.pdb

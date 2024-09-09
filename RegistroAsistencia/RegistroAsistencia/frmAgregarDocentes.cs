@@ -256,7 +256,7 @@ namespace RegistroAsistencia
         {
            
         }
-        // PARA ESTE PROPCEDIMIENTO SE TIENE QUE IR A EVENTOS DEL DVG Y BUSCAR 
+        // PARA ESTE PROCEDIMIENTO SE TIENE QUE IR A EVENTOS DEL DVG Y BUSCAR 
         //DOUBLECLICK Y HACER DOBLE CLIC Y RECIEN AHI ESCRIBIR LA CONDICION
         private void dgvRegDoc_DoubleClick(object sender, EventArgs e)
         {
@@ -290,7 +290,7 @@ namespace RegistroAsistencia
         {
             if (dgvRegDoc.SelectedRows.Count > 0)
             {
-                if (MessageBox.Show("¿Seguro de Eliminar datos del docente?", "Docente", MessageBoxButtons.YesNo,
+                if (MessageBox.Show("¿Seguro que quieres eliminar datos del docente?", "Docente", MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
                 {
                     int codigo = (int)dgvRegDoc.SelectedRows[0].Cells[0].Value;
