@@ -248,7 +248,7 @@ namespace RegistroAsistencia
 
             }
             else
-                MessageBox.Show("Seleccione los datos de Docente que quieres modificar", "Docente");
+                MessageBox.Show("Seleccione los datos del docente que quieres modificar", "Docente");
 
         }
 
@@ -308,7 +308,7 @@ namespace RegistroAsistencia
 
                         }
                         else
-                            MessageBox.Show("Los datos del docente no se eliminaron", "Docente");
+                            MessageBox.Show("Los datos del docente no fueron eliminaron", "Docente");
                     }
                 }
             }
