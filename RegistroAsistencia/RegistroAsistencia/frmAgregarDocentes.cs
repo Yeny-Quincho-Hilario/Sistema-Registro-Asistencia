@@ -290,7 +290,7 @@ namespace RegistroAsistencia
         {
             if (dgvRegDoc.SelectedRows.Count > 0)
             {
-                if (MessageBox.Show("¿Seguro que quieres eliminar datos del docente?", "Docente", MessageBoxButtons.YesNo,
+                if (MessageBox.Show("¿Seguro que quieres eliminar los datos del docente?", "Docente", MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
                 {
                     int codigo = (int)dgvRegDoc.SelectedRows[0].Cells[0].Value;
